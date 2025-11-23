@@ -6,11 +6,10 @@ Common topics including:
 ---
 
 ### ▶️ Run the files locally
-In the project directory run:
+- In the project directory run:
+  #### `python path-to-the-python-file.py`
 
-#### `python path-to-the-python-file.py`
-
-If you use PyCharm IDE you can directly navigate to a file and run it in the window.
+- If you use PyCharm IDE you can directly navigate to a file and run it in the window.
 
 ---
 
