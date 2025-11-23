@@ -1,30 +1,21 @@
+# The goal is to check is all elements in one array are included in another array .
+# Return true if all elements of first array(inc. duplicates) are in present in the second array.
+
 from collections import Counter
 
+def is_subset(first_array: list[str], second_array: list[str]) -> bool:
+    counter_first_array = Counter(first_array)
+    counter_second_array = Counter(second_array)
 
-def is_subset(A: list[str], B: list[str]) -> bool:
-    """is_subset tests if all elements of A
-    are included in B.
-
-    Args:
-        A (list[str]): List of string elements.
-        B (list[str]): List of string elements.
-
-    Returns:
-        bool: True if all elements of A (inc. duplicates) are in B.
-    """
-    # Create counter objs
-    c_A = Counter(A)
-    c_B = Counter(B)
-    # First check to make sure unique elements are a subset
-    # Or it fails at this stage
-    uniq_A = c_A.keys()
-    uniq_B = c_B.keys()
-    if uniq_A <= uniq_B:
-        if c_B != c_A:
-            return bool(c_B - c_A)
+    # check if unique elements from both arrays are a subset otherwise fails at this stage
+    unique_elements_first_array = counter_first_array.keys()
+    unique_elements_second_array = counter_second_array.keys()
+    if unique_elements_first_array <= unique_elements_second_array:
+        if counter_second_array != counter_first_array:
+            return bool(counter_second_array - counter_first_array)
         return True
-        # return bool(c_B - c_A) if c_B != c_A else True
     return False
+    # return bool(counter_second_array - counter_first_array) if counter_second_array != counter_first_array else True
 
 
 if __name__ == '__main__':

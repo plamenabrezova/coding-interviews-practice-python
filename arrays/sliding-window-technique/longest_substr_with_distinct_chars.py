@@ -4,13 +4,11 @@ def find_longest_substring_with_distinct_chars(string: str):
 
     # storing the sliding window boundaries
     low = high = 0
-
     # storing the longest substring boundaries
     begin = end = 0
 
     while high < len(string):
         # check if the current char is present in the current sliding window
-
         # if the current char is present in the current sliding window remove it
         if sliding_window.get(string[high]):
             # remove chars from the left side of the sliding window

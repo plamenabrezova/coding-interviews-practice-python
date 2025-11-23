@@ -1,6 +1,5 @@
 from collections import Counter
 
-
 def check_dup(lst1, lst2):
     lst1_counter = Counter(lst1)
     lst2_counter = Counter(lst2)

@@ -34,8 +34,6 @@ def max_profit_from_stocks(prices) -> int:
         B = max(B, A + price)
         C = max(C, B - price)
         D = max(D, C + price)
-
     return D
-
 
 print(max_profit_from_stocks([3,3,5,0,0,3,1,4]))

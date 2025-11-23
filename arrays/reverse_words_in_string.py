@@ -29,7 +29,6 @@ def solution(s: str) -> str:
 
     return str(result).strip()
 
-
 def second_solution(s: str) -> str:
     lst = s.split()
     last_index = len(lst) - 1
