@@ -2,6 +2,13 @@
 
 Common topics including:
 - [Arrays](https://github.com/plamenabrezova/coding-interviews-practice-python/tree/master/arrays)
+- [Backtracking](https://github.com/plamenabrezova/coding-interviews-practice-python/tree/master/backtracking)
+- [Basic Data Structures](https://github.com/plamenabrezova/coding-interviews-practice-python/tree/master/basic-data-structures)
+- [Binary Search](https://github.com/plamenabrezova/coding-interviews-practice-python/tree/master/binary-search)
+- [Frequently asked questions](https://github.com/plamenabrezova/coding-interviews-practice-python/tree/master/common_questions)
+- [Tasks from previous interviews](https://github.com/plamenabrezova/coding-interviews-practice-python/tree/master/previous-interviews)
+- [Sorting](https://github.com/plamenabrezova/coding-interviews-practice-python/tree/master/sorting)
+- [Two Pointers - in general not only related to arrays](https://github.com/plamenabrezova/coding-interviews-practice-python/tree/master/two-pointers)
 
 ---
 
